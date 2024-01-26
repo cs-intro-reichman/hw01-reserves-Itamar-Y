@@ -11,11 +11,7 @@ public class Triangle {
 
 		boolean triangle = (((side1 + side2) > side3) && ((side2 + side3) > side1) && ((side1 + side3) > side2));
 
-		if (triangle) {
-			System.out.println(side1 + " " + side2 + " " + side3 + " form a triangle");
-		} else {
-			System.out.println(side1 + " " + side2 + " " + side3 + " do not form a triangle");
-		}
+		System.out.println(side1 + ", " + side2 + ", " + side3 + ": " + triangle);
 
 
 	}

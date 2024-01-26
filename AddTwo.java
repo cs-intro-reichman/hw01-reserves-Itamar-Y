@@ -10,7 +10,7 @@ public class AddTwo {
 		int Result = number1 + number2;
 
 
-		System.out.println("The sum of " + number1 + " and " + number2 + " is " + Result);
+		System.out.println(number1 + " + " + number2 + " = " + Result);
 	}
 }
 

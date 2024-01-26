@@ -7,11 +7,11 @@
 public class LinearEq {
 	public static void main(String[] args) {
 
-		int var1 = Integer.parseInt(args[0]);
-		int var2 = Integer.parseInt(args[1]);
-		int var3 = Integer.parseInt(args[2]);
+		double var1 = Double.parseDouble(args[0]);
+		double var2 = Double.parseDouble(args[1]);
+		double var3 = Double.parseDouble(args[2]);
 
-			int x = (var3-var2) / var1;
+			double x = (var3-var2) / var1;
 
 	System.out.println(var1 + " * x + " + var2 + " = " + var3);
 	System.out.println("x = " + x);
