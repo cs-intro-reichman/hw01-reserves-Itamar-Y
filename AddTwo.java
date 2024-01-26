@@ -5,7 +5,6 @@ public class AddTwo {
 	/**
 	 */
 	public static void main(String[] args) {
-		// Put your code here	
 		int number1 = Integer.parseInt(args[0]);
 		int number2 = Integer.parseInt(args[1]);
 		int Result = number1 + number2;
